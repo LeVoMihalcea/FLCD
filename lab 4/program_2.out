@@ -6,46 +6,44 @@ start --- -1
 Integer --- -1
 { --- -1
 i, --- 48
-n --- 48
+n --- 39
 ; --- -1
 Boolean --- -1
-is_prime --- 45
+is_prime --- 35
 = --- -1
-true --- 3
+true --- 4
 read --- -1
 if --- -1
-0 --- 29
+0 --- 27
 || --- -1
-1 --- 15
-false --- 33
+1 --- 13
+false --- 28
 } --- -1
 else --- -1
 for --- -1
-i --- 23
-2 --- 43
+i --- 25
+2 --- 11
 < --- -1
 / --- -1
 + --- -1
 % --- -1
 break --- -1
-print --- 38
+print --- 32
 " --- -1
-prime --- 34
-number --- 20
-not --- -1
-a --- 18
+prime number  --- 46
+not a prime number  --- 6
 return --- -1
 
----Symbol Table---
-3. ['true']
-15. ['1']
-18. ['a']
-20. ['number']
-23. ['i']
-29. ['0']
-33. ['false']
-34. ['prime']
-38. ['print']
-43. ['2']
-45. ['is_prime']
-48. ['i,', 'n']
+---Symbol Table--- (hashtable)
+4. ['true']
+6. ['not a prime number ']
+11. ['2']
+13. ['1']
+25. ['i']
+27. ['0']
+28. ['false']
+32. ['print']
+35. ['is_prime']
+39. ['n']
+46. ['prime number ']
+48. ['i,']

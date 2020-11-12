@@ -5,9 +5,8 @@ start(): Integer{
 
 
 	for(i = 0; i < array_length; i++){
-		sum = sum + my_array[i];
+		sum = sum + my_array[ĂĂĂĂĂĂĂ];
 	}
 
 	print(sum);
-
 }

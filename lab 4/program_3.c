@@ -1,26 +1,13 @@
-start(): Integer {
-	Integer i, n;
-	Boolean is_prime = true;
+start(): Integer{
+	Integer[] my_array = [1, 2, 3, 4, 5];
+	Integer array_length = 5, i = 0;
+	Integer sum = 0;
 
-	read(n);
 
-	if (n == 0 || n == 1) {
-		is_prime = false;
-	}
-	else {
-		for (i=2; i <= n/2; i++) {
-			if (n % i == 0) {
-				is_prime = false;
-				break;
-			}
-		}
-	}
-	if (is_prime){
-		print(" prime number ");
-	}
-	else{
-		print(" not a prime number ");
+	for(i = 0; i < array_length; i++){
+		sum = sum + my_array[i];
 	}
 
-	return 0;
+	print(sum);
+
 }

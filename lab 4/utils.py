@@ -7,6 +7,7 @@ reservedWords = ['read', 'write', 'not', 'break', 'start', 'Char', 'continue', '
 reservedOperatorsSeparators = ['+', '-', '*', '/', '%', '=', '==', '!=', '>=', '<=', '>', '<', '[', ']',
                                '{', '}', '(', ')', ';', ':', ' ', '"', "&&", "||", '"']
 
+
 def is_float_or_identifier(token):
     try:
         if (token[0] == '0' and (len(token) > 1 or token[1] == '.')):
@@ -31,9 +32,33 @@ def readFiniteAutomata():
 
         finiteAutomata = FiniteAutomata(states, alphabet, start, finals, transitions)
 
-        print(finiteAutomata)
+        return finiteAutomata
 
 
+def printMenu(fa):
+    print("FA Menu")
+    print("1. states")
+    print("2. alphabet")
+    print("3. start")
+    print("4. finals")
+    print("5. transitions")
+
+    command = int(input(">"))
+    while True:
+        if command == 1:
+            print(fa.states)
+        elif command == 2:
+            print(fa.alphabet)
+        elif command == 3:
+            print(fa.start)
+        elif command == 4:
+            print(fa.finals)
+        elif command == 5:
+            print(fa.transitions)
+        else:
+            print("invalid command")
+        command = int(input(">"))
 
 
-readFiniteAutomata()
+fa = readFiniteAutomata()
+printMenu(fa)

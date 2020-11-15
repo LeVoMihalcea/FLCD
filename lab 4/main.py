@@ -2,13 +2,13 @@ import sys
 import re
 from HashMap import HashMap
 from PIF import PIF
-from utils import is_float_or_identifier, reservedWords, reservedOperatorsSeparators
+from utils import is_float_or_identifier, reservedWords, reservedOperatorsSeparators, readFiniteAutomata
 
 
 class Scanner:
     pif = PIF()
     st = HashMap()
-
+    fa = readFiniteAutomata()
     def __init__(self):
         if len(sys.argv) != 2:
             raise Exception("analyze <input_file_name>")
@@ -37,7 +37,7 @@ class Scanner:
 
                             if token in reservedWords or token in reservedOperatorsSeparators:
                                 self.pif[token] = 0
-                            elif is_float_or_identifier(token):
+                            elif is_float_or_identifier(self.fa, token):
                                 index = self.st.add(token)
                                 self.pif[token] = index
                             else:

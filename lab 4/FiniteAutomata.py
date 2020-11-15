@@ -19,3 +19,10 @@ class FiniteAutomata:
         toReturn += 'finals: ' + str(self.finals) + '\n'
         toReturn += 'transitions' + str(self.transitions) + '\n'
         return toReturn
+
+    def getTransitionsFromState(self, state):
+        toReturn = []
+        for transition in self.transitions:
+            if transition[0][0] == state[0]:
+                toReturn.append(transition)
+        return toReturn

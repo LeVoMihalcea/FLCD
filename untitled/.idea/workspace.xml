@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02817bbf-f8e1-4dce-9a87-e707fe13d4f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab 4/FiniteAutomataChecker.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab 4/documentation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 4/input - output.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 4/input - output.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab 4/~$put - output.docx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab 1/lab1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 1/lab1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab 2/lexic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 2/lexic.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab 4/Documentation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 4/Documentation.docx" afterDir="false" />
@@ -55,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604649792276</updated>
-      <workItem from="1604649793683" duration="399000" />
+      <workItem from="1604649793683" duration="1112000" />
     </task>
     <servers />
   </component>
